@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /booking-backend-service
+---
+bookable:
+  frame:
+    start: '2023-03-10'
+    end: '2023-03-13'
+  workday:
+    start: '09:00'
+    end: '17:00'
+  timeSlot:
+    duration:
+      min-minutes: 30
+      max-minutes: 180
